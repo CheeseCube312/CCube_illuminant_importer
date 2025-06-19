@@ -15,7 +15,8 @@ How to use
 - The script creates a .tsv file in the same folder as the script.
 - Copy or move the generated .tsv file into your filters_data folder to use it in the plotter.
 
-Setup
+Setup:
+
 Just use the .bat file. It creates a virtual environment, installs the libraries and runs the script.
 
 Alternatively you can manually create and activate a Python virtual environment, then install dependencies:
