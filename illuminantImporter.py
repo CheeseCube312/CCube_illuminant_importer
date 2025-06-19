@@ -27,7 +27,7 @@ def convert_to_tsv(csv_path, description=""):
         wl, intensity = parse_webplot_csv(csv_path)
 
         # Define full desired range from 200 to 1100 nm
-        full_range = np.arange(200, 1101, 1)
+        full_range = np.arange(300, 1101, 1)
 
         # Interpolate original data onto full_range, with left and right fill as 0
         intensity_interp = np.interp(full_range, wl, intensity, left=0, right=0)
